@@ -200,7 +200,7 @@ Bloop is a build server we can use to inspect the akka build.
 
 1. Follow the [Bloop Installation Guide](https://scalacenter.github.io/bloop/setup) to install bloop.
 
-2. The the file `akka/project/bloop.sbt` adds the bloop plugin
+2. The file `akka/project/bloop.sbt` adds the bloop plugin
 
    ```scala
    addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "1.3.2")
