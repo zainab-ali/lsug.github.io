@@ -141,6 +141,7 @@ $ xcode-select --install
 ```console
 $ brew tap caskroom/versions brew cask install java8
 ```
+Alternatively, you can use the [AdopOpenJDK brew version](https://github.com/AdoptOpenJDK/homebrew-openjdk)
 
 #### Graphviz
 
