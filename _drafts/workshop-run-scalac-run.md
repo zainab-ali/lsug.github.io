@@ -455,8 +455,7 @@ We will now look into profiling `scalac` for the `akka-stream-typed` project.
 
    ```scala
    final val DefaultScalacOptions = Seq("-encoding", "UTF-8", "-feature", "-unchecked", "-Xlog-reflective-calls") ++
-     Seq("-Ystatistics")
-  ```
+     Seq("-Ystatistics")```
   This will print compiler statistics.
 
 2. Reload and check that the `-Ystatistics` option has been added
